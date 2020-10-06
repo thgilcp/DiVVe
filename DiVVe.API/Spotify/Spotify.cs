@@ -34,6 +34,30 @@ namespace DiVVe.API.Spotify
             var spotify = File.Exists(CredentialsPath) ? await this.GetClient() : await this.GetClientWithAuth();
         }
 
+        public async Task Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task RemoveDuplicates()
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task Sort()
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task Export()
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task Import()
+        {
+            throw new NotImplementedException();
+        }
 
         private async Task<SpotifyClient> GetClient(PKCETokenResponse? token = null)
         {
