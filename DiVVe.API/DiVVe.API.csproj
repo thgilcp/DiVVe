@@ -13,7 +13,4 @@
     <PackageReference Include="ZLogger" Version="1.3.0" />
     <PackageReference Include="ZString" Version="2.2.0" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Spotify\" />
-  </ItemGroup>
 </Project>

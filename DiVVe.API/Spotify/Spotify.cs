@@ -14,7 +14,7 @@ using Utf8Json;
 
 using ZLogger;
 
-namespace DiVVe.API
+namespace DiVVe.API.Spotify
 {
     public class Spotify : ConsoleAppBase
     {
