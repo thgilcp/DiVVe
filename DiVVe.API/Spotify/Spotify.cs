@@ -24,7 +24,7 @@ namespace DiVVe.API.Spotify
         private static readonly int ServerPort = 5000;
         private static readonly EmbedIOAuthServer server = new EmbedIOAuthServer(ServerUrl, ServerPort);
 
-        public async Task Ping() => this.Context.Logger.ZLogInformation("pong!");
+        public void Ping() => this.Context.Logger.ZLogInformation("pong!");
 
         public async Task Auth()
         {
